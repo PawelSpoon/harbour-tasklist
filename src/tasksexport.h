@@ -4,8 +4,6 @@
 #include <QObject>
 #include <QStringList>
 
-#include <qtdropbox.h>
-
 class TasksExport : public QObject
 {
     Q_OBJECT
@@ -54,7 +52,7 @@ private:
     void exitDropbox();
 
     QString mFileName;
-    QDropbox *dropbox;
+    //QDropbox *dropbox;
     QString dropboxPath;
 };
 

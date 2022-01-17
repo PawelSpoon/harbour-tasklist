@@ -1,5 +1,5 @@
-# This repository is not being maintained anymore because I went back to Android. :disappointed:
-Feel free to fork the repository and continue developing the software.
+# Fork of armadillo's tasklist v1.8.15
+Removed dropbox support due to outdated qtdropbox lib
 
 TaskList
 ================

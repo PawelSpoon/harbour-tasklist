@@ -9,7 +9,7 @@
 TARGET = harbour-tasklist
 
 CONFIG += sailfishapp c++11
-QT += dbus
+#QT += dbus
 
 SOURCES += src/harbour-tasklist.cpp \
     src/tasksexport.cpp

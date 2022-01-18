@@ -608,16 +608,6 @@ menu item to switch to settings page</extracomment>
         <source>on Adding multiple tasks</source>
         <translation>при добавлении нескольких задач</translation>
     </message>
-    <message id="dropbox-options-label">
-        <source>Dropbox options</source>
-        <extracomment>headline for Dropbox options</extracomment>
-        <translation>Настройки Dropbox </translation>
-    </message>
-    <message id="dropbox-logout-label">
-        <source>Dropbox log out</source>
-        <extracomment>Button to log out from the dropbox account</extracomment>
-        <translation>Выйти из аккаунта Dropbox</translation>
-    </message>
     <message id="select-tags-header">
         <source>Select tags</source>
         <translation>Выберите теги</translation>
@@ -745,10 +735,6 @@ menu item to switch to settings page</extracomment>
         <source>Export/Import data</source>
         <extracomment>menu item to switch to export/import page</extracomment>
         <translation>Экспорт/импорт данных</translation>
-    </message>
-    <message id="dropbox-sync-label">
-        <source>Sync with Dropbox</source>
-        <translation>Синхронизация с Dropbox</translation>
     </message>
     <message id="mark-open-label">
         <source>mark as open</source>

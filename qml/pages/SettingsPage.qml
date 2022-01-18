@@ -382,7 +382,7 @@ Dialog {
                 valueText: composeRemorseSliderText(value)
             }
 
-            SectionHeader {
+            /*SectionHeader {
                 //: headline for Dropbox options
                 //% "Dropbox options"
                 text: qsTrId("dropbox-options-label")
@@ -400,7 +400,7 @@ Dialog {
                     taskListWindow.removeDropboxCredentials()
                     signOutDropbox.enabled = false
                 }
-            }
+            }*/
 
             Rectangle {
                 width: parent.width

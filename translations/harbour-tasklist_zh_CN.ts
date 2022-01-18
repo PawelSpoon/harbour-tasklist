@@ -611,16 +611,6 @@ menu item to switch to settings page</extracomment>
         <source>on Adding multiple tasks</source>
         <translation>添加多个任务计时</translation>
     </message>
-    <message id="dropbox-options-label">
-        <source>Dropbox options</source>
-        <extracomment>headline for Dropbox options</extracomment>
-        <translation>Dropbox选项</translation>
-    </message>
-    <message id="dropbox-logout-label">
-        <source>Dropbox log out</source>
-        <extracomment>Button to log out from the dropbox account</extracomment>
-        <translation>Dropbox登出</translation>
-    </message>
     <message id="select-tags-header">
         <source>Select tags</source>
         <translation>选择标签</translation>
@@ -748,10 +738,6 @@ menu item to switch to settings page</extracomment>
         <source>Export/Import data</source>
         <extracomment>menu item to switch to export/import page</extracomment>
         <translation>导入/导出数据</translation>
-    </message>
-    <message id="dropbox-sync-label">
-        <source>Sync with Dropbox</source>
-        <translation>通过Dropbox同步</translation>
     </message>
     <message id="mark-open-label">
         <source>mark as open</source>

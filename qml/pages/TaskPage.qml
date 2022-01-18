@@ -475,11 +475,11 @@ Page {
                 text: qsTrId("export-import-label")
                 onClicked: pageStack.push(Qt.resolvedUrl("ExportPage.qml"))
             }
-            MenuItem {
+            /*MenuItem {
                 //% "Sync with Dropbox"
                 text: qsTrId("dropbox-sync-label")
                 onClicked: pageStack.push("sync/DropboxSync.qml", { attemptedAuth: false })
-            }
+            }*/
             MenuItem {
                 //: menu item to jump to the application's help page
                 //% "Help"

@@ -960,18 +960,6 @@ menu item to switch to settings page</extracomment>
         <source>on Adding multiple tasks</source>
         <translation type="unfinished"></translation>
     </message>
-    <message id="dropbox-options-label">
-        <location filename="../qml/pages/SettingsPage.qml" line="388"/>
-        <source>Dropbox options</source>
-        <extracomment>headline for Dropbox options</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="dropbox-logout-label">
-        <location filename="../qml/pages/SettingsPage.qml" line="398"/>
-        <source>Dropbox log out</source>
-        <extracomment>Button to log out from the dropbox account</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
     <message id="db-sync-label">
         <location filename="../qml/pages/sync/DropboxSync.qml" line="48"/>
         <source>Sync Dropbox</source>
@@ -1161,11 +1149,6 @@ menu item to switch to settings page</extracomment>
         <location filename="../qml/pages/TaskPage.qml" line="475"/>
         <source>Export/Import data</source>
         <extracomment>menu item to switch to export/import page</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="dropbox-sync-label">
-        <location filename="../qml/pages/TaskPage.qml" line="480"/>
-        <source>Sync with Dropbox</source>
         <translation type="unfinished"></translation>
     </message>
     <message id="help-label">

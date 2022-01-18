@@ -54,22 +54,27 @@ int main(int argc, char *argv[])
         https://www.mail-archive.com/devel@lists.sailfishos.org/msg02602.html */
     QGuiApplication* app = SailfishApp::application(argc, argv);
 
+
+    // check file deployment
+    if(!QFileInfo::exists(("/usr/share/harbour-tasklist/translations/harbour-tasklist_en_US.qm")))
+        qWarning("failed-no file");
+
     // load default translator and system locale's translator afterwards
     QTranslator defaultTranslator;
-    defaultTranslator.load("en_US", SailfishApp::pathTo(QString("localization")).toLocalFile());
+    defaultTranslator.load("harbour-tasklist_en_US", SailfishApp::pathTo(QString("translations")).toLocalFile());
     app->installTranslator(&defaultTranslator);
 
     QSettings settings;
     QString locale = settings.value("language", "").toString();
     if (locale.isEmpty() || locale == QString("system_default")) {
-        /* use system locale by default */
+        // use system locale by default
         if (locale.isEmpty())
             settings.setValue("language", "system_default");
         locale = QLocale::system().name();
     }
 
     QTranslator translator;
-    translator.load(locale, SailfishApp::pathTo(QString("localization")).toLocalFile());
+    translator.load("harbour-tasklist_"+locale, SailfishApp::pathTo(QString("translations")).toLocalFile());
     app->installTranslator(&translator);
 
     qmlRegisterType<TasksExport>("harbour.tasklist.tasks_export", 1, 0, "TasksExport");

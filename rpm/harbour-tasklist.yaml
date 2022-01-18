@@ -1,11 +1,11 @@
 Name: harbour-tasklist
 Summary: harbour-tasklist
 Version: 1.8.15
-Release: 1
+Release: 2
 # The contents of the Group field should be one of the groups listed here:
 # http://gitorious.org/meego-developer-tools/spectacle/blobs/master/data/GROUPS
 Group: Qt/Qt
-URL: https://github.com/Armadill0/harbour-tasklist
+URL: https://github.com/PawelSpoon/harbour-tasklist
 License: GPL v3
 # This must be generated before uploading a package to a remote build service.
 # Usually this line does not need to be modified.

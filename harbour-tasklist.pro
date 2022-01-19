@@ -75,6 +75,3 @@ TRANSLATIONS += translations/harbour-tasklist_ca.ts  \
 
 HEADERS += \
     src/tasksexport.h
-
-DISTFILES += \
-    localization-sources/harbour-tasklist.ts

@@ -32,7 +32,7 @@ OTHER_FILES += qml/harbour-tasklist.qml \
     qml/pages/sync/DropboxSync.qml \
     qml/pages/HelpPage.qml
 
-# not sure if we need both
+# without _idbased app did not load the files properly
 CONFIG += sailfishapp_i18n
 CONFIG += sailfishapp_i18n_idbased
 
@@ -55,12 +55,6 @@ TRANSLATIONS += translations/harbour-tasklist_ca.ts  \
                 translations/harbour-tasklist_tr_TR.ts \
                 translations/harbour-tasklist_zh_CN.ts
 
-# after generation of qm files this copies them into expected location called localization
-# this piece might be removed later, if you adopt harbour-taskist.cpp to load files from translations ..
-
-#localization.files = $$OUT_PWD/translations/*.qm
-#localization.path = /usr/share/$${TARGET}/localization
-#INSTALLS += localization
 
 # this would trigger a manuall lupdate
 #"/home/pawel/SailfishOS/bin/sfdk build-shell lupdate /home/pawel/Documents/SailfishProjects/harbour-tasklist/harbour-tasklist.pro"

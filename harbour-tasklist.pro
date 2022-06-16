@@ -51,7 +51,7 @@ TRANSLATIONS += translations/harbour-tasklist_ca.ts  \
                 translations/harbour-tasklist_nl_NL.ts \
                 translations/harbour-tasklist_pl_PL.ts \
                 translations/harbour-tasklist_ru_RU.ts \
-                translations/harbour-tasklist_sv_SV.ts \
+                translations/harbour-tasklist_sv_SE.ts \
                 translations/harbour-tasklist_tr_TR.ts \
                 translations/harbour-tasklist_zh_CN.ts
 

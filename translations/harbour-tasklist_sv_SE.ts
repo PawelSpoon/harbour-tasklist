@@ -254,7 +254,7 @@ title for the list property in the task description (keep as short as possible)<
         <extracomment>select the due date for a task
 ----------
 title for the due date in the task description (keep as short as possible)</extracomment>
-        <translation>På grund</translation>
+        <translation>Dag</translation>
     </message>
     <message id="created-date-label">
         <source>Created</source>

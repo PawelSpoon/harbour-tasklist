@@ -8,6 +8,7 @@ Name=TaskList
 # your app name in German locale (de)
 #Name[de]=TaskList
 
+
 [X-HarbourBackup]
 BackupPathList=.local/share/harbour-tasklist/harbour-tasklist/:.config/harbour-tasklist/
 BackupConfigList=
